@@ -1,0 +1,795 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#miniNav{
+    visibility: hidden;
+    position: absolute;
+}
+#first-section-holder{
+    background-color: #010202;
+    background-image: url('images/prveSekcije.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    padding-bottom: 100px;
+}
+#logo-slika{
+    margin-top: 10px;
+}
+#nav{
+    padding-top: 20px;
+    height: 100px;
+    display: flex;
+    font-family: 'Play', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: white;
+    justify-content: center;
+}
+#nav ul{
+    list-style-type:none;
+    display: flex;
+    padding-left: 340px;
+    padding-top: 20px;
+}
+#nav ul li{
+    margin-right: 40px;
+}
+li a{
+    text-decoration: none;
+    color:white ;
+}
+#moj-nalog{
+    height: 35px;
+    padding: 10px;
+    margin-top:-10px;
+    border-radius: 4px;
+    background-color: #EBA718;
+}
+#moj-nalog:hover{
+    cursor: pointer;
+    background-color: #c6911f;
+}
+#nav ul li img{
+    padding-bottom: 3px;
+}
+#search-img{
+    height: 30px;
+}
+/*-------------------------------------------------------------------------------------------*/
+#main-content-container{
+    height: 900px;
+    width: 100%;
+}
+#proba{
+    width: 100%;
+    text-align: right;
+}
+#main-content{
+    width: 470px;
+    color: white;
+    padding-top: 220px;
+}
+#main-content h1{
+    font-family: Play;
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+#main-content h3{
+    font-family: 'Saira', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 35px;
+}
+#main-button-holder{
+    display: flex;
+    width: 530px;
+}
+.main-button{
+    text-transform: uppercase;
+    width: 260px;
+    border-radius: 4px;
+    font-family: Play;
+    font-size: 26px;
+    text-align: center;
+    padding: 16px 25px 18px 25px;
+}
+.main-button:nth-child(1){
+    background-color:#EBA718;
+}
+.main-button:nth-child(1):hover{
+    background-color:#c6911f;
+    cursor: pointer;
+}
+.main-button:nth-child(2):hover{
+    cursor: pointer;
+}
+/*--------------------------------------------SECTION 2---------------------------------------------------*/
+
+#section-two-holder{
+    background-color: #282929;
+    position: relative;
+    height: 390px;
+}
+#picture-holder{
+    justify-content: center;
+    display: flex;
+}
+.img-box{
+    width: 336px;
+    height: 428px;
+    background-color: #EBA718;
+    margin-left: 10px;
+    margin-top:40px;
+    position: relative;
+    z-index: 2;
+}
+.img-box:nth-child(1){
+    background-image: url('images/boxImage1.png');
+}
+.img-box:nth-child(2){
+    background-image: url('images/boxImage2.png');
+}
+.img-box:nth-child(3){
+    background-image: url('images/boxImage3.png');
+}
+.img-box:nth-child(4){
+    background-image: url('images/boxImage4.png');
+}
+.black-opacity{
+    background-color: #282929;
+    opacity: 0.8;
+    backdrop-filter: blur(16px);
+    mix-blend-mode: multiply;
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    clip-path: polygon(0 0, 100% 35%, 100% 100%, 0% 100%);
+}
+.img-box-text{
+    width: 91%;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: Play;
+    font-size: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 30px;
+    border-bottom: 14px solid #EBA718;
+
+}
+/*---------------------------------------SECTION 3--------------------------------*/
+#section-three{
+    position: relative;
+    background-color: #010202;
+    background-image: url('images/teren.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 300px;
+    color: white;
+}
+#section-three-container{
+    /* width: 1388px; */
+    height: 104px;
+    background: #282929;
+    margin: auto;
+    border: none;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+#section-three-container h2{
+    margin-top:25px ;
+    font-family: Play;
+   font-size: 42px;
+   font-weight: lighter;
+}
+#section-three-container img{
+    padding-bottom: 10px;
+}
+#section-three-container a{
+    text-decoration: none;
+    color: #EBA718;
+    z-index: 10;
+}
+#section-three-container a:hover{
+    color: #c6911f;
+    font-size: 40px;
+}
+
+#picture-and-text{
+    display: flex;
+    margin: auto;
+    margin-top: 100px; 
+    justify-content: center;
+}
+
+#section-three-text{
+    overflow-wrap: break-word;
+    width: 570px;
+    margin-top: -18px;
+    margin-left: 30px;
+}
+#section-three-text h2{
+    font-family: Play;
+    font-size: 58px;
+    line-height: 72px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#section-three-text p{
+    font-family: Saira;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+#section-three-btn{
+    padding:12px 30px 12px 30px;
+    width: 215px;
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 38px;
+    text-align: left;
+    background-color: #EBA718;
+    border-radius: 4px;
+    text-align: center;
+    margin-top:45px;
+}
+#section-three-btn:hover{
+    background-color: #c6911f;
+    cursor: pointer;
+    font-size: 24px;
+}
+/*---------------------------------------------------SECTION 4-------------------*/
+#section-four-holder{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    background-color: #010202;
+    padding-bottom: 115px;
+}
+/*-------------------FOOTER------------------------------------------------------*/
+#footer{
+    width: auto;
+    height: 320px;
+    background-color: #282929;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+}
+.footer-content-box{
+    width: 300px;
+    margin-left: 30px;
+    overflow-wrap: break-word;
+}
+.footer-content-box h3{
+    font-family: Play;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: white;
+}
+#line{
+    height: 5.5px;
+    width: 218px;
+    background-color: #EBA718;
+    margin-bottom: 14px;
+}
+.footer-content-box ul{
+    margin-left: 20px;
+   
+}
+.footer-content-box ul li{
+    list-style:square ;
+    color:#EBA718;
+    font-family: Saira;
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+#line-two{
+    height: 5.5px;
+    width: 124px;
+    background-color: #EBA718;
+    margin-bottom: 14px;
+}
+#line-three{
+    height: 5.5px;
+    width: 172px;
+    background-color: #EBA718;
+    margin-bottom: 14px;
+}
+.footer-content-box p{
+    font-family: Saira;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    margin-bottom: 30px;
+}
+/*---------------------------------------------RESPONSIVE---------------------------*/
+@media only screen and (max-width: 1400px){
+    #nav {
+        font-size: 18px;
+    }
+    #search-img{
+        height:20px;
+    }
+    #polygon-img{
+        height: 10px;
+    }
+    #moj-nalog{
+        height: 24px;
+    }
+    #main-content{
+        width:420px
+    }
+    #main-content h1{
+        font-size:50px;
+    }
+    #main-content h3{
+        font-size: 25px;
+    }
+    #main-button-holder {
+        display: flex;
+        width: 435px;
+    }
+    .main-button{
+        font-size: 20px;
+        width: 200px;
+    }
+    #first-section-holder{
+        padding-bottom: 0;
+    }
+    /*----------------------------SECTION TWO-----------------------------*/
+    .img-box{
+        z-index: 2;
+        width: 260px;
+    }
+    .img-box:nth-child(4){
+        background-position: center;
+    }
+    .img-box:nth-child(3){
+        background-position: center;
+    }
+    .img-box:nth-child(2){
+        background-position: center;
+    }
+    .img-box:nth-child(1){
+        background-position: center;
+    }
+    .img-box-text{
+        font-size: 21px;
+    }
+    /*---------------------------------picture and text----------------------------------*/
+    #section-three-picture img{
+        height: 400px;
+    }
+    #section-three-text{
+        overflow-wrap: break-word;
+        width:460px;
+    }
+    #section-three-text h2{
+        font-size: 32px;
+        line-height: normal;
+        margin-left: 140px;
+    }
+    #section-three-text p{
+        line-height: normal;
+        font-size: 16px;
+        margin-left: 140px;
+    }
+    #section-three-btn{
+        margin-top: 30px;
+        margin-left: 140px;
+    }
+    #section-three{
+        padding-bottom: 190px;
+    }
+    #picture-and-text{
+        justify-content: center;
+    }
+    #second-h2-section-three a:hover{
+        font-size: 22px;
+    }
+    /*--------------------------------SECTION FOUR---------------------------------------------*/
+    #section-four-holder img{
+        height: 600px;
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    #logo-slika{
+        margin-left: 50px;
+    }
+    #nav ul{
+        padding-left: 120px;
+        padding-top: 24px;
+        font-size: 20px;
+        text-align: center;
+    }
+    #nav ul li{
+        margin-right: 25px;
+        /* background-color: red; */
+        height: 30px;
+        width: 120px;
+    }
+    #polygon-img{
+        display: none;
+    }
+    #first-section-holder{
+        background-size: 150%;
+        background-position: 70%;
+    }
+    #main-content{
+        width: 310px;
+        margin-left: 30px;
+    }
+    #main-content h1 {
+        font-size: 40px;
+      }
+    #main-content h3{
+        line-height: normal;
+
+    }
+    .img-box:nth-child(1){
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 1024px){
+    #first-section-holder{
+        background-size: 100%;
+        background-position: center top;
+    }
+    #nav{
+        padding-top: 25px;
+        height: 0px;
+        margin-left: -50px;
+    }
+    #nav ul{
+        display: flex;
+        padding-left: 0px;
+        padding-top: 0px;
+        font-size: 20px;
+    }
+    #nav ul li{
+        margin-right: 0px;
+    }
+    #logo-slika{
+        margin-top: 0px;
+    }
+    #moj-nalog{
+        height: 25px;
+        padding: 5px;
+        margin-top:-10px;
+        border-radius: 4px;
+        background-color: #EBA718;
+    }
+    #main-content{
+        padding-top: 0px;
+        margin-top: 80px;
+    }
+    #main-content-container{
+        height: auto;
+    }
+    #main-content h1{
+        font-size: 35px;
+    }
+    #main-content h3{
+        font-size: 18px;
+    }
+    #main-button-holder{
+        margin-bottom: 80px;
+
+    }
+    .main-button{
+        width: auto;
+        font-size: 16px;
+    }
+    #picture-holder{
+        display: grid;
+        grid-template-columns: auto auto ;
+        background-color: #282929;
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+    }
+    #section-three{
+        margin-top: 580px;
+    }
+    #section-three-container h2{
+        font-size: 35px;
+    }
+    #section-three-picture img{
+        height: 300px;
+    }
+    #section-three-text{
+        margin-top: 0px;
+        margin-left: -87px;
+    }
+    #section-four-holder img{
+        height: 440px;
+    }
+    .footer-content-box{
+        margin-left: auto;
+    }
+    .footer-content-box h3{
+        font-size: 22px;
+    }
+    .footer-content-box p{
+        font-size: 16px;
+    }
+    #line-three{
+        width: 146px;
+    }
+    #line-two{
+        width: 106px;
+    }
+    #line{
+        width: 185px;
+    }
+}
+/*---------------------------------------------------MOBILE--------------------*/
+@media only screen and (max-width: 768px){
+    #nav{
+        display: none;
+    }
+    #miniNav{
+        position: relative;
+        visibility: visible;
+        height: 60px;
+        width:100%;
+        background-color: #010202;
+        padding-top: 10px;
+        color: white;
+    }
+    #first-section-holder{
+        justify-content: start;
+        background-color: #010202;
+        background-image: url('images/prveSekcije.png');
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-position: center top;
+        width: 100%;
+    }
+    #logo-slika{
+        margin-left: 0px;
+        margin-top: 0px;
+        float: left;
+    }
+    #burger-bar{
+        float: right;
+        margin-right: 10px;
+    }
+    #main-content{
+        margin: 0;
+        margin-top: 23px;
+        margin-left: 10px;
+        width: 190px;
+    }
+    #main-content h1{
+        font-size: 30px;
+    }
+    #main-content h3{
+        font-size: 16px;
+    }
+    .main-button{
+        font-size: 14px;
+    }
+    .img-box{
+        width: 256px;
+        margin-left: 0px;
+    }
+    .img-box-text{
+        font-size: 19px;
+    }
+    #section-three-container h2{
+        font-size: 23px;
+    }
+    #section-three-container{
+        height: 82px;
+    }
+    #section-three{
+        width: 100%;
+        justify-content: center;
+    }
+    #picture-and-text{
+        /* background-color: #c6911f; */
+        display: block;
+        text-align: center;
+    }
+    #section-three-picture img{
+        height:330px ;
+    }
+    #section-three-text{
+        margin: auto;
+        margin-top: 30px;
+        /* width: 570px; */
+    }
+    #section-four-holder img{
+        height: 300px;
+    }
+    #section-three-btn{
+        margin-top: 95px;
+    }
+    #section-three-text h2{
+        margin-left: 0px;
+    }
+    #section-three-text p{
+        margin-left: 0px;
+    }
+    #section-three-btn{
+        margin-left: 0px;
+    }
+    #footer-img-logo{
+        display: none;
+    }
+    #footer{
+        padding-left: 10px;
+    }
+    #podrska{
+        margin-left: 30px;
+    }
+    #line-two{
+        margin-left: 30px; 
+    }
+    #mini-ul{
+        position: absolute;
+        list-style-type:none;
+        word-spacing: 5px;
+        right: 0;
+        margin-top:30px;
+        background-color: #EBA718;
+        font-family: Saira;
+        /* line-height: 28px; */
+        letter-spacing: 0em;
+        text-transform: uppercase;
+        text-align: center;
+        display: flex;
+        display: none;
+    }
+    #btn{
+        background-color: #010202;
+    }
+}
+@media only screen and (max-width: 480px){
+    #btn{
+        background-color: #282929;
+    }
+    #nav{
+        display: none;
+    }
+    #miniNav{
+        position: relative;
+        visibility: visible;
+        height: 60px;
+        width:100%;
+        background-color: #282929;
+        padding-top: 10px;
+        color: white;
+    }
+    #first-section-holder{
+        background-color: #010202;
+        background-image:none;
+        width:100%;
+    }
+    #main-content-container{
+        width: 100%;
+        padding-left: 5px;
+    }
+    #main-content {
+        width: auto;
+                
+    }
+    #main-button-holder{
+        width: 100%;
+        height: 0px;
+    }
+    .main-button {
+        height: 16px;
+    }
+    #main-content h3{
+        padding-right: 40px;
+    }
+    #picture-holder{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #section-three {
+        margin-top: 1500px;
+        padding-top: 115px;
+      }
+    #section-three-container h2 {
+        font-size: 20px;
+    }
+    #section-three-container {
+        padding-left: 20px;
+    }
+    #section-three-container {
+        height: 98px;
+    }
+    #second-h2-section-three a:hover{
+        font-size: 22px;
+    }
+    #section-three-picture img{
+        height: 250px;
+    }
+    #section-three-text{
+        width: 320px;
+    }
+    #section-three-text h2 {
+        margin-left: 0px;
+    }
+    #section-three-text p {
+        margin-left: 0px;
+    }
+    #section-three-btn{
+        width: 215px;
+        font-size: 21px;
+        margin-left: 0px;
+    }
+    #section-four-holder{
+        margin-top: -1px;
+    }
+    #section-four-holder img {
+        height: 195px;
+    }#footer{
+        display: block;
+        height: auto;
+
+    }
+    #podrska{
+        margin-left: auto;
+    }
+    #line-two {
+        margin-left: 0px;
+    }
+    #nacin-placanja{
+        margin-bottom: 30px;
+    }
+    #main-button-holder{
+        width: 85%;
+    }
+}
+/*-------------------------------------BAR MENI-------------------------------------------*/
+#btn{
+    
+    border: 0;
+    color: white;
+    position: relative;
+    float: right;
+}
+#nav.show{
+    display:flex;
+    flex-direction: column;
+}
+
+#mini-ul li a{
+    color: white;
+}
+#mini-ul li {
+    border-bottom: 2px solid #fff;
+    font-size: 22px;
+}
+#mini-ul.show{
+    display: flex;
+   
+    flex-direction: column;
+}
